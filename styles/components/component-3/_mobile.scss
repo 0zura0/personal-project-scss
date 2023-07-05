@@ -1,0 +1,113 @@
+@media screen and ($mobile) {
+    .component-3{
+        height : 799px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 36px;
+
+        #heder{
+            font-size: 27px;
+            font-family: $font-raleway;
+            font-weight: 600;
+            span{
+                color: $green;
+            }
+            margin-bottom: 10px;
+        }
+        #speaker{
+            width: 99px;
+            margin-bottom: 32px;
+            div{
+                display: inline-block;
+                height: 0.5px;
+                width: 33px;
+                background-color: $graysh;
+                margin-bottom: 5px;
+            }
+            img{
+                margin-left: 5px;
+            }
+            div:nth-of-type(2){
+                margin-left: 2px;
+            }
+
+        }
+        .black-box{
+            height: 207px;
+            width: 87.5%;
+            background-color: $black;
+            margin-bottom: 16px;
+        }
+
+        .center-helper{
+            width:87.5%;
+            >span{
+                font-family: $font-raleway;
+                font-weight: 600;
+                letter-spacing: -0.38px;
+            }
+            margin-bottom: 12px;
+            p{
+                font-family: $font-open-sans;
+                font-size: 13px;
+                line-height: 23px;
+            }
+
+            &:last-of-type{
+                margin-top: 44px;
+            }
+        }
+
+        .line{
+            height: 1px;
+            width: 87%;
+            background-color: $gray-but-for-line;
+            margin-bottom: 11px;
+        }
+
+        .bullets{
+            margin-top: 21px;
+            margin-bottom: -2px;
+            i{
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                color: $white;
+                font-size: 10px;
+                text-align: center;
+                line-height: 16px;
+                background-color: $green;
+                margin-top: 4px;
+            }
+            width: 87.9%;
+            display: $grid;
+            grid-template-columns: 11.4% 1fr;
+            grid-template-rows: 1fr;
+        }
+
+
+
+        button{
+            width: 138px;
+            height: 42px;
+            background-color: $green;
+            font-family: $font-raleway;
+            font-weight: bold;
+            border: none;
+            color: $white;
+            padding-right: 2%;
+            padding-bottom: 0.5%;
+        }
+        .for-tablet{
+            display: none;
+        }
+        .mobile{
+            display: inline;
+        }
+        .tabl{
+            display: none;
+        }
+    }
+
+}

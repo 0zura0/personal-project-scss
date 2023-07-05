@@ -1,0 +1,24 @@
+@media screen and ($tablet) {
+    .component-1{
+        height: 108.92px;
+        display: $grid;
+        grid-template-columns: 3.2% 86.1% 7.3% 1fr;
+        grid-template-rows: 26% 39% 3% 31%;
+    
+        #parryLogo{
+            grid-area: 2/2/3/3;
+            width: 120px;
+            height: 52px;
+    
+        }
+        #menu{
+            grid-area: 2/3/2/4;
+            margin-top: 7px;
+            height: 39px;
+            width: 56px;
+        }
+        .nav{
+            display: none;
+        }
+    } 
+}

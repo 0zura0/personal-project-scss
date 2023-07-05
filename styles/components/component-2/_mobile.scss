@@ -1,0 +1,52 @@
+@media screen and ($mobile) {
+
+.component-2{
+    height: 212px;
+    padding-top: 50px;
+    #parry-span-1{
+        font-size: $font-size-25;
+        letter-spacing: -0.2px;
+        margin-right: 5px;
+        margin-bottom: 8.7px;
+    }
+    #U-love{
+        font-size: $font-size-30;
+        line-height: 24px;
+
+        letter-spacing: -0.86px;
+        margin-right: 5px;
+        margin-bottom: 8px;
+    }
+
+    #small-lorem{
+        font-family: $font-raleway;
+        font-size: $font-size-9;
+        letter-spacing: -0.09px;
+        color: $white;
+        line-height: 9px;
+        margin-bottom: 16.7px;
+    }
+
+    #tablet-lorem{
+        display: none;
+    }
+
+    button{
+        width: 60px;
+        height: 15px;
+        font-size: $font-size-7;
+        margin-top: 2.8%;
+        margin-left: 3.1%;
+        letter-spacing: -0.2px;
+        padding-left: 4%;
+    }
+    .outer{
+        height: 19px;
+        width: 64px;
+        margin-right: 2px;
+    }
+    #left-arrow, #right-arrow{
+        display: none;
+    }
+}
+}

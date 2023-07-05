@@ -1,0 +1,23 @@
+
+@media screen and ($mobile) {
+    .component-1{
+        height: 67px;
+        display: $grid;
+        grid-template-columns: 6% 72.4% 15% 6.6%;
+        grid-template-rows: 22% 47% 4% 27%;
+    
+        #parryLogo{
+            grid-area: 2/2/3/3;
+            width: 90.84px;
+    
+        }
+        #menu{
+            grid-area: 2/3/2/4;
+            margin-top: 3px;
+        }
+    }  
+    .nav{
+        display: none;
+    }
+}
+
