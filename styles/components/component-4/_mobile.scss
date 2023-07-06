@@ -10,7 +10,7 @@
             font-size: 27px;
             font-family:$font-raleway;
             color: $white;
-            margin-bottom: 8px;
+            margin-bottom: 8.5px;
             
         }
         #services{
@@ -37,10 +37,22 @@
                 height: 140px;
                 background-color: aqua; /* Replace with your desired color */
                 clip-path: polygon(50% 2%, 101% 27%, 101% 75%, 50% 100%, 0% 76%, 0% 27%);
-                margin-bottom: 40px;
+                margin-bottom: 41px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+
+                &.second{
+                    margin-top: -2px;
+                    margin-bottom: 42px;
+                    span:nth-of-type(2){
+                        margin-top: 1px;
+                    }
+                }
+
+                &.third{
+                    margin-top: -1px;
+                }
               
               .second-hex{
                 width: 113px;

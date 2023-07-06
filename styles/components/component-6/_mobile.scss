@@ -1,0 +1,132 @@
+@media screen and ($mobile) {
+    .component-6{
+        height: 958px;
+        width: 100%;
+        display: $flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 45px;
+        position: relative;
+    
+    >h1{
+        font-family: $font-raleway;
+        font-size: 27px;
+        justify-self: center;
+    }
+    .chest{
+        width: 116px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 52px;
+        div{
+            display: inline-block;
+            height: 0.5px;
+            width: 33px;
+            background-color: $graysh;
+            margin-bottom: 6px;
+            margin-right: 1px;
+            margin-left: 8px;
+            &:nth-child(3){
+                margin-left: 2px;
+            }
+        }
+        img{
+            margin-left: 4px;
+        }
+        }
+        .flexer{
+            width: 100%;
+            margin-top: 69px;
+
+        }
+        .addr{
+            img{
+                height: 34px;
+                width: 26px;
+                margin-bottom: 21.5px;
+            }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            span{
+                font-family: $font-raleway;
+                font-size: 15px;
+                letter-spacing: 0.7px;
+            }
+            span:nth-child(3){
+                margin-top: 6.5px;
+                letter-spacing: 0.8px;
+            }
+
+            &:nth-child(2){
+                margin-top: 40px;
+                img{
+                    width: 30px;
+                    height: 22px;
+                }
+                span{
+                    margin-top: 6px;
+                }
+            }
+            &:nth-child(3){
+                margin-top: 40px;
+                img{
+                    width: 48px;
+                    height: 32px;
+                }
+                span{
+                    margin-top: 2px;
+                    &:nth-child(3){
+                        margin-top: 6px;
+                    }
+                }
+            }
+            
+        }
+
+        form{
+            display: grid;
+            width: 100%;
+            justify-content: center;
+            margin-top: 41px;
+            grid-template-columns: 94%;
+            gap: 10px;
+            .txt{
+                height: 46px;
+                border: 1px solid $border-col;
+                margin-right: 1px;
+                padding-left: 10px;
+                padding-bottom: 2.5px;
+                letter-spacing: 0.4px;
+                font-family: $font-raleway;
+
+            }
+            .area{
+                margin-top: -1px;
+                margin-right: 1px;
+                border: 1px solid $border-col;  
+                height: 141px;
+                padding-top: 13px;
+                padding-left: 10px;
+                letter-spacing: 0.1px;
+                font-family: $font-raleway;
+                font-size: 14px;
+
+            }
+            .but{
+                width: 160px;
+                height: 42px;
+                background-color: $green;
+                color: $white;
+                font-family: $font-raleway;
+                font-weight: bold;
+                border: none;
+                margin-top: 3px;
+                letter-spacing: -0.2px;
+                padding-right: 1px;
+            }
+        }
+
+}
+}
