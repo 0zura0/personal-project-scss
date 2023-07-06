@@ -466,7 +466,7 @@ body {
     height: 1px;
     width: 93.5%;
     background-color: #E6E6E6;
-    margin-bottom: 18px;
+    margin-bottom: 19px;
   }
   .component-3 .bullets {
     margin-top: 19px;
@@ -504,7 +504,8 @@ body {
     font-weight: bold;
     border: none;
     color: #FFFFFF;
-    padding-right: 0.5%;
+    padding-right: 5px;
+    padding-bottom: 1px;
   }
   .component-3 .deskt-appiar {
     display: none;
@@ -568,6 +569,7 @@ body {
     font-size: 14px;
     line-height: 27px;
     margin-bottom: 45px;
+    margin-right: 2px;
   }
   .component-3 .features {
     display: flex;
@@ -728,7 +730,7 @@ body {
     margin-bottom: 42px;
   }
   .component-4 .center:nth-of-type(3) .inner-hexagon img {
-    margin-bottom: 8px;
+    margin-bottom: 4px;
   }
   .component-4 .center:nth-of-type(3) .hdr2 {
     letter-spacing: 0.3px;
@@ -766,7 +768,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 71px;
+    padding-top: 72px;
   }
   .component-4 > h1 {
     font-size: 29px;
@@ -865,10 +867,11 @@ body {
     margin-bottom: 71px;
   }
   .component-4 .center:not(:last-of-type) .hdr2 {
-    letter-spacing: 0.9px;
+    letter-spacing: 0.6px;
+    margin-left: 1px;
   }
   .component-4 .center:not(:last-of-type) span:nth-of-type(2) {
-    margin-top: 1.5px;
+    margin-bottom: 1.1px;
   }
   .component-4 .center:nth-of-type(4) .inner-hexagon img {
     margin-left: 1px;
@@ -1491,7 +1494,7 @@ body {
     width: 100%;
     justify-content: center;
     margin-top: 41px;
-    grid-template-columns: 94%;
+    grid-template-columns: 88%;
     gap: 10px;
   }
   .component-6 form .txt {
@@ -1529,7 +1532,7 @@ body {
 }
 @media screen and ((min-width:768px) and (max-width:1023px)) {
   .component-6 {
-    height: 958px;
+    height: 742px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1657,7 +1660,7 @@ body {
 }
 @media screen and ((min-width:1024px) and (max-width:1920px)) {
   .component-6 {
-    height: 958px;
+    height: 897px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1792,6 +1795,150 @@ body {
     letter-spacing: -0.2px;
     padding-right: 1px;
     padding-top: 1px;
+  }
+}
+@media screen and ((min-width:320px) and (max-width:767px)) {
+  .component-7 {
+    height: 312px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+  }
+  .component-7 .logo-handler img {
+    margin-top: 44px;
+    width: 106px;
+    margin-right: 4px;
+  }
+  .component-7 .links {
+    margin-top: 35px;
+    width: 188px;
+    margin-right: 3px;
+    height: 92px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8.6px;
+  }
+  .component-7 .links div {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #252525;
+  }
+  .component-7 .links div:first-child, .component-7 .links div:nth-child(5) {
+    margin-left: 2px;
+  }
+  .component-7 .links div:first-child {
+    padding-top: 2px;
+  }
+  .component-7 .links div:nth-child(3) {
+    padding-left: 3px;
+  }
+  .component-7 .copy-right {
+    color: #FFFFFF;
+    font-size: 11px;
+    font-family: "Raleway";
+    margin-top: 39px;
+    margin-right: 8px;
+    letter-spacing: 0.15px;
+  }
+}
+@media screen and ((min-width:768px) and (max-width:1023px)) {
+  .component-7 {
+    height: 312px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+  }
+  .component-7 .logo-handler img {
+    margin-top: 48px;
+    width: 119px;
+    margin-right: 3px;
+  }
+  .component-7 .links {
+    margin-top: 35px;
+    width: 287px;
+    margin-right: 8px;
+    height: 92px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8.6px;
+  }
+  .component-7 .links div {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #252525;
+  }
+  .component-7 .links div:first-child {
+    padding-top: 2px;
+  }
+  .component-7 .links div:nth-child(3) {
+    padding-left: 3px;
+  }
+  .component-7 .copy-right {
+    color: #FFFFFF;
+    font-size: 11px;
+    font-family: "Raleway";
+    margin-top: -4px;
+    letter-spacing: 0.15px;
+  }
+}
+@media screen and ((min-width:1024px) and (max-width:1920px)) {
+  .component-7 {
+    height: 312px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+  }
+  .component-7 .logo-handler img {
+    margin-top: 48px;
+    width: 119px;
+    margin-right: 3px;
+  }
+  .component-7 .links {
+    margin-top: 35px;
+    width: 287px;
+    height: 92px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8.6px;
+  }
+  .component-7 .links div {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #252525;
+  }
+  .component-7 .links div:first-child {
+    padding-top: 2px;
+  }
+  .component-7 .links div:nth-child(3) {
+    padding-left: 3px;
+  }
+  .component-7 .copy-right {
+    color: #FFFFFF;
+    font-size: 11px;
+    font-family: "Raleway";
+    margin-top: -4px;
+    letter-spacing: 0.15px;
   }
 }
 

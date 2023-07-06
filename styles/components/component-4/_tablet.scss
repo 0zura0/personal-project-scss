@@ -5,7 +5,7 @@
         display: $flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 71px;
+        padding-top: 72px;
         >h1{
             font-size: 29px;
             font-family:$font-raleway;
@@ -106,10 +106,11 @@
                     margin-bottom: 71px;
                 
                 .hdr2{
-                    letter-spacing: 0.9px;
+                    letter-spacing: 0.6px;
+                    margin-left: 1px;
                 }
                 span:nth-of-type(2){
-                    margin-top:1.5px;
+                    margin-bottom:1.1px;
                 }
                 }
                 &:nth-of-type(4){
