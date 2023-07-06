@@ -2,18 +2,24 @@
 @media screen and ($mobile) {
     .component-1{
         height: 67px;
-        display: $grid;
-        grid-template-columns: 6% 72.4% 15% 6.6%;
-        grid-template-rows: 22% 47% 4% 27%;
+        display: flex;
+        justify-content: space-between;
     
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+        }
         #parryLogo{
-            grid-area: 2/2/3/3;
             width: 90.84px;
+            margin-left:22%;
+            margin-top: 14px;
     
         }
         #menu{
-            grid-area: 2/3/2/4;
-            margin-top: 3px;
+            width: 48px;
+            height: 31px;
+            margin-top: 18px;
+            margin-left: 43%;
         }
     }  
     .nav{

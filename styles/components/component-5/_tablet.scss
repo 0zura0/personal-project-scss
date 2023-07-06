@@ -2,9 +2,7 @@
     .component-5{
         height: 702px;
         display: $flex;
-        // grid-template-columns:281px;
         justify-content: center;
-        // padding-top: 72px;
         position: relative;
 
         .wrap{
@@ -72,6 +70,7 @@
                 justify-content: center;
                 margin-right: 5px; 
                 gap:9px;
+                display: none;
             }
             >div:last-child{
                 background-color: black;
@@ -98,6 +97,7 @@
                     color: $green;
                 
                 }
+                display: none;
             }
             .round{
                 display: none;
@@ -121,6 +121,16 @@
                     align-items: center;
                     background-color: $gray-icon;
                 }
+            }
+            &:hover{
+                >div:nth-child(2){
+                    display: flex;
+                }
+                >div:last-child{
+                    display: flex;
+                }
+                background-color: $gray;
+
             }
         }
                 .desktop{

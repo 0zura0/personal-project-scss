@@ -50,11 +50,12 @@
             justify-content: center;
             padding-top: 44px;
             position: relative;
+            
             >div:first-child{
                 display: flex;
                 justify-content: center;
                 gap: 7px;
-                
+                display: none;
             }
             >div:last-child{
                 background-color: black;
@@ -83,6 +84,7 @@
                     color: $green;
                 
                 }
+                display: none;
             }
             .round{
                 height: 26px;
@@ -113,6 +115,15 @@
                         color: $white;
                     }
                 }
+            }
+            &:hover{
+                >div:first-child{
+                    display: flex;
+                }
+                >div:last-child{
+                    display: flex;
+                }
+                background-color: $gray;
             }
         }
         .tablet,

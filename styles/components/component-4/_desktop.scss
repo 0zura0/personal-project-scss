@@ -1,6 +1,6 @@
 @media screen and ($desktop) {
     .component-4{
-        background-color: $black;
+        background-color: $gray-for-back;
         height: 783px;
         display: $flex;
         justify-content: center;
@@ -47,17 +47,26 @@
             .hexagon {
                 width: 123px;
                 height: 147px;
-                background-color: aqua; /* Replace with your desired color */
+                background-color: $white;
                 clip-path: polygon(50% 2%, 101% 27%, 101% 75%, 50% 100%, 0% 76%, 0% 27%);
                 margin-bottom: 44px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                &:hover{
+                    background-color: $green;
+                    .second-hex{
+                        background-color: $white;
+                        .inner-hexagon{
+                            background-color: $green;
+                        }
+                    }
+                }
               
               .second-hex{
                 width: 113px;
                 height: 132px;
-                background-color: $white;
+                background-color: $gray;
                 clip-path: polygon(47.5% 0%, 96% 24%, 96% 72%, 48% 95%, 0% 72%, 0% 24%);
                 margin-top: 10px;
                 margin-left: 5px;
@@ -70,7 +79,7 @@
                     margin-right: 5px;
                     margin-bottom: 8px;
                     margin-top: 1px;
-                    background-color:aqua; /* Replace with your desired color */
+                    background-color:$gray;
                     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 1% 76%, 1% 25%);
                     display: $flex;
                     justify-content: center;

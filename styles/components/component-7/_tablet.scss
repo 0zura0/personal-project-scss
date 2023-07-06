@@ -37,6 +37,9 @@
                 &:nth-child(3){
                     padding-left: 3px;
                 }
+                &:hover{
+                    background-color: $blue;
+                }
             }
         }
         .copy-right{
