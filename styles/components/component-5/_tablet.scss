@@ -1,0 +1,106 @@
+@media screen and ($mobile) {
+    .component-5{
+        height: 803px;
+        display: $grid;
+        grid-template-columns:281px;
+        grid-template-rows:  93px 170px 170px 170px 163px;
+        justify-content: center;
+        padding-top: 36px;
+        position: relative;
+    
+    >h1{
+        font-family: $font-raleway;
+        font-size: 27px;
+        justify-self: center;
+    }
+    .chest{
+        width: 116px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        margin-top: 88px;
+        div{
+            display: inline-block;
+            height: 0.5px;
+            width: 33px;
+            background-color: $graysh;
+            margin-bottom: 7px;
+            margin-right: 1px;
+            margin-left: 8px;
+        }
+        img{
+            margin-left: 2px;
+        }
+        }
+
+        .box{
+            width: 280px;
+            height: 163px;
+            background-color: $black;
+            display: flex;
+            justify-content: center;
+            padding-top: 44px;
+            position: relative;
+            >div:first-child{
+                display: flex;
+                justify-content: center;
+                gap: 7px;
+                
+            }
+            >div:last-child{
+                background-color: black;
+                position: absolute;
+                bottom: 0;
+                height: 54px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-top: 12px;
+                width: 100%;
+                h2{
+                    font-size: 14px;
+                    font-family: $font-raleway;
+                    margin-bottom: 2.5px;
+                    color: $white;
+                }
+                span{
+                    font-size: 11px;
+                    font-family: $font-raleway;
+                    font-style: italic;
+                    font-weight: 600;
+                    color: $green;
+                
+                }
+            }
+            .round{
+                height: 26px;
+                width: 26px;
+                border-radius: 50%;
+                background-color: $green;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i{
+                    width: 22px;
+                    height: 22px;
+                    border-radius: 50%;
+                    background-color: $gray-icon;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 11px;
+                    &:first-of-type,
+                    &:nth-of-type(2){
+                        padding-left: 2px;
+                        padding-top: 1px;
+                        color: $white;
+                    }
+                }
+            }
+        }
+        .tablet{
+            display: none;
+        }
+        
+    }
+}

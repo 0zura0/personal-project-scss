@@ -1,0 +1,166 @@
+@media screen and ($desktop) {
+    .component-4{
+        background-color: $black;
+        height: 783px;
+        display: $flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 71px;
+        position: relative;
+        >h1{
+            font-size: 31px;
+            font-family:$font-raleway;
+            color: $white;
+            margin-bottom: 13px;
+            
+        }
+        #services{
+            width: 121px;
+            margin-bottom: 52px;
+            top: 192px;
+            div{
+                display: inline-block;
+                height: 0.5px;
+                width: 37px;
+                background-color: $graysh;
+                margin-bottom: 9px;
+                margin-left: 6px;
+            }
+            img{
+                margin-left: 5px;
+                margin-right: 2px;
+            }
+            div:nth-of-type(2){
+                margin-left: 3px;
+            }
+                }
+
+            .not-include, #services{
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+            .not-include{
+                top: 158px;
+            }
+
+            .hexagon {
+                width: 123px;
+                height: 147px;
+                background-color: aqua; /* Replace with your desired color */
+                clip-path: polygon(50% 2%, 101% 27%, 101% 75%, 50% 100%, 0% 76%, 0% 27%);
+                margin-bottom: 44px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              
+              .second-hex{
+                width: 113px;
+                height: 132px;
+                background-color: $white;
+                clip-path: polygon(47.5% 0%, 96% 24%, 96% 72%, 48% 95%, 0% 72%, 0% 24%);
+                margin-top: 10px;
+                margin-left: 5px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .inner-hexagon {
+                    width: 105px;
+                    height: 119px;
+                    margin-right: 5px;
+                    margin-bottom: 8px;
+                    margin-top: 1px;
+                    background-color:aqua; /* Replace with your desired color */
+                    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 1% 76%, 1% 25%);
+                    display: $flex;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        margin-bottom:3px;
+                        margin-right:3px;
+                    }
+
+                  }
+              }
+            }
+            .hdr2{
+                font-family: $font-raleway;
+                font-size: 19px;
+                color: $green;
+                margin-bottom: 13.5px;
+                letter-spacing: 0.5px;
+            }
+            span{
+                font-family: $font-open-sans;
+                color: $white;
+                font-size: 13px;
+                width: 275px;
+                letter-spacing: 0.7px;
+                margin-left: 5px;
+                line-height: 21px;
+                &:nth-of-type(2){
+                    min-width: 294px;
+                    letter-spacing: 0.64px;
+                    margin-top: 1px;
+                }
+                &:nth-of-type(3){
+                    margin-top: 1px;
+                    margin-left: 37px;
+                    letter-spacing: 0.7px;
+                }
+            }
+            .center{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                &:not(:last-of-type){
+                    margin-bottom: 71px;
+                
+                .hdr2{
+                    letter-spacing: 0.9px;
+                }
+                span:nth-of-type(2){
+                    margin-top:1.5px;
+                }
+                }
+                &:nth-of-type(4){
+                    .inner-hexagon{
+                    img{
+                   margin-left: 1px;
+
+                    }
+                }
+                .hdr2{
+                    letter-spacing: 0.6px;
+                    margin-top: 1px;
+                }
+                span:nth-of-type(2){
+                    margin-top: 1.2px;
+                }
+                }
+                &:nth-of-type(1){
+                    .hdr2{
+                        margin-left: 1px;
+                        letter-spacing: 0.7px;
+                    }
+                    span:nth-of-type(1),
+                    span:nth-of-type(2){
+                        margin-left: 2px;
+                    }
+                    span:nth-of-type(3){
+                        margin-left: 34px;
+                    }
+                }
+
+                
+            }
+             .wrap{
+                display: flex;
+                width: 1315px;
+                margin-top: 188px;
+             } 
+            
+    }
+            
+}

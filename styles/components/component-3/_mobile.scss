@@ -6,6 +6,12 @@
         align-items: center;
         padding-top: 36px;
 
+        .hidden{
+            flex-direction: column;
+            display: $flex;
+            align-items: center;
+        }
+
         #heder{
             font-size: 27px;
             font-family: $font-raleway;
@@ -108,6 +114,9 @@
         .tabl{
             display: none;
         }
+    }
+    .deskt-appiar{
+        display: none;
     }
 
 }

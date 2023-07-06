@@ -6,6 +6,11 @@
         align-items: center;
         padding-top: 73px;  //this
 
+        .hidden{
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+        }
 
         #heder{
             font-size: 28.8px;
@@ -117,6 +122,10 @@
             color: $white;
             padding-right: 0.5%;
         }
+        .deskt-appiar{
+            display: none;
+        }
     }
+
 
 }
