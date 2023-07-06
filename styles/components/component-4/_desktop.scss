@@ -2,15 +2,11 @@
     .component-4{
         background-color: $gray-for-back;
         height: 783px;
-        display: $flex;
         justify-content: center;
-        align-items: center;
         padding-top: 71px;
         position: relative;
         >h1{
             font-size: 31px;
-            font-family:$font-raleway;
-            color: $white;
             margin-bottom: 13px;
             
         }
@@ -19,19 +15,14 @@
             margin-bottom: 52px;
             top: 192px;
             div{
-                display: inline-block;
                 height: 0.5px;
                 width: 37px;
-                background-color: $graysh;
                 margin-bottom: 9px;
                 margin-left: 6px;
             }
             img{
                 margin-left: 5px;
                 margin-right: 2px;
-            }
-            div:nth-of-type(2){
-                margin-left: 3px;
             }
                 }
 
@@ -50,9 +41,6 @@
                 background-color: $white;
                 clip-path: polygon(50% 2%, 101% 27%, 101% 75%, 50% 100%, 0% 76%, 0% 27%);
                 margin-bottom: 44px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 &:hover{
                     background-color: $green;
                     .second-hex{
@@ -70,15 +58,7 @@
                 clip-path: polygon(47.5% 0%, 96% 24%, 96% 72%, 48% 95%, 0% 72%, 0% 24%);
                 margin-top: 10px;
                 margin-left: 5px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
                 .inner-hexagon {
-                    width: 105px;
-                    height: 119px;
-                    margin-right: 5px;
-                    margin-bottom: 8px;
-                    margin-top: 1px;
                     background-color:$gray;
                     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 1% 76%, 1% 25%);
                     display: $flex;

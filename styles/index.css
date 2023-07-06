@@ -12,14 +12,9 @@ body {
   width: 100vw;
 }
 
-@media screen and ((min-width:320px) and (max-width:768px)) {
+@media screen and ((min-width:320px) and (max-width:767px)) {
   .component-1 {
     height: 67px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .component-1 .wrapper {
-    display: flex;
     justify-content: space-between;
   }
   .component-1 #parryLogo {
@@ -37,14 +32,9 @@ body {
     display: none;
   }
 }
-@media screen and ((min-width:769px) and (max-width:1024px)) {
+@media screen and ((min-width:768px) and (max-width:1023px)) {
   .component-1 {
     height: 108.92px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .component-1 .wrapper {
-    display: flex;
     justify-content: space-between;
   }
   .component-1 #parryLogo {
@@ -63,16 +53,13 @@ body {
     display: none;
   }
 }
-@media screen and ((min-width:1025px) and (max-width:1920px)) {
+@media screen and ((min-width:1024px) and (max-width:1920px)) {
   .component-1 {
     height: 101px;
-    display: flex;
     justify-content: center;
     align-items: center;
   }
   .component-1 .wrapper {
-    display: flex;
-    justify-content: space-between;
     width: 60.8%;
   }
   .component-1 #parryLogo {
@@ -100,9 +87,14 @@ body {
 .component-1 {
   width: 100%;
   background-color: #000000;
+  display: flex;
+}
+.component-1 .wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
-@media screen and ((min-width:320px) and (max-width:768px)) {
+@media screen and ((min-width:320px) and (max-width:767px)) {
   .component-2 {
     height: 212px;
     padding-top: 50px;
@@ -149,7 +141,7 @@ body {
     display: none;
   }
 }
-@media screen and ((min-width:769px) and (max-width:1024px)) {
+@media screen and ((min-width:768px) and (max-width:1023px)) {
   .component-2 {
     height: 592px;
     padding-top: 174px;
@@ -195,7 +187,7 @@ body {
     display: none;
   }
 }
-@media screen and ((min-width:1025px) and (max-width:1920px)) {
+@media screen and ((min-width:1024px) and (max-width:1920px)) {
   .component-2 {
     height: 759px;
     padding-top: 263px;
@@ -278,12 +270,9 @@ body {
   display: flex;
 }
 
-@media screen and ((min-width:320px) and (max-width:768px)) {
+@media screen and ((min-width:320px) and (max-width:767px)) {
   .component-3 {
     height: 799px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 36px;
   }
   .component-3 .hidden {
@@ -293,26 +282,15 @@ body {
   }
   .component-3 #heder {
     font-size: 27px;
-    font-family: "Raleway";
-    font-weight: 600;
     margin-bottom: 10px;
-  }
-  .component-3 #heder span {
-    color: #3AB6B2;
   }
   .component-3 #speaker {
     width: 99px;
     margin-bottom: 32px;
   }
   .component-3 #speaker div {
-    display: inline-block;
     height: 0.5px;
     width: 33px;
-    background-color: #D3D3D3;
-    margin-bottom: 5px;
-  }
-  .component-3 #speaker img {
-    margin-left: 5px;
   }
   .component-3 #speaker div:nth-of-type(2) {
     margin-left: 2px;
@@ -389,12 +367,9 @@ body {
     display: none;
   }
 }
-@media screen and ((min-width:769px) and (max-width:1024px)) {
+@media screen and ((min-width:768px) and (max-width:1023px)) {
   .component-3 {
     height: 1146px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 73px;
   }
   .component-3 .hidden {
@@ -404,26 +379,15 @@ body {
   }
   .component-3 #heder {
     font-size: 28.8px;
-    font-family: "Raleway";
-    font-weight: 600;
     margin-bottom: 10px;
-  }
-  .component-3 #heder span {
-    color: #3AB6B2;
   }
   .component-3 #speaker {
     width: 99px;
     margin-bottom: 55px;
   }
   .component-3 #speaker div {
-    display: inline-block;
     height: 0.5px;
     width: 33px;
-    background-color: #D3D3D3;
-    margin-bottom: 5px;
-  }
-  .component-3 #speaker img {
-    margin-left: 5px;
   }
   .component-3 #speaker div:nth-of-type(2) {
     margin-left: 2px;
@@ -507,22 +471,14 @@ body {
     display: none;
   }
 }
-@media screen and ((min-width:1025px) and (max-width:1920px)) {
+@media screen and ((min-width:1024px) and (max-width:1920px)) {
   .component-3 {
     height: 816px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 114px;
   }
   .component-3 #heder {
     font-size: 31px;
-    font-family: "Raleway";
-    font-weight: 600;
     margin-bottom: 12px;
-  }
-  .component-3 #heder span {
-    color: #3AB6B2;
   }
   .component-3 .hidden {
     display: none;
@@ -532,14 +488,8 @@ body {
     margin-bottom: 94px;
   }
   .component-3 #speaker div {
-    display: inline-block;
     height: 0.5px;
     width: 40px;
-    background-color: #D3D3D3;
-    margin-bottom: 5px;
-  }
-  .component-3 #speaker img {
-    margin-left: 5px;
   }
   .component-3 #speaker div:nth-of-type(2) {
     margin-left: 5px;
@@ -612,9 +562,27 @@ body {
 }
 .component-3 {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.component-3 #heder {
+  font-family: "Raleway";
+  font-weight: 600;
+}
+.component-3 #heder span {
+  color: #3AB6B2;
+}
+.component-3 #speaker div {
+  display: inline-block;
+  background-color: #D3D3D3;
+  margin-bottom: 5px;
+}
+.component-3 #speaker img {
+  margin-left: 5px;
 }
 
-@media screen and ((min-width:320px) and (max-width:768px)) {
+@media screen and ((min-width:320px) and (max-width:767px)) {
   .component-4 {
     background-color: #000000;
     height: 1107px;
@@ -650,7 +618,7 @@ body {
   .component-4 .hexagon {
     width: 118px;
     height: 140px;
-    background-color: #666666;
+    background-color: #FFFFFF;
     clip-path: polygon(50% 2%, 101% 27%, 101% 75%, 50% 100%, 0% 76%, 0% 27%);
     margin-bottom: 41px;
     display: flex;
@@ -679,7 +647,7 @@ body {
   .component-4 .hexagon .second-hex {
     width: 113px;
     height: 132px;
-    background-color: #000000;
+    background-color: #666666;
     clip-path: polygon(47.5% 0%, 96% 24%, 96% 72%, 48% 95%, 0% 72%, 0% 24%);
     margin-top: 10px;
     margin-left: 5px;
@@ -693,7 +661,7 @@ body {
     margin-right: 5px;
     margin-bottom: 8px;
     margin-top: 1px;
-    background-color: #000000;
+    background-color: #666666;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 1% 76%, 1% 25%);
     display: flex;
     justify-content: center;
@@ -766,18 +734,14 @@ body {
     margin-top: 1px;
   }
 }
-@media screen and ((min-width:769px) and (max-width:1024px)) {
+@media screen and ((min-width:768px) and (max-width:1023px)) {
   .component-4 {
     background-color: #000000;
     height: 1287px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 72px;
   }
   .component-4 > h1 {
     font-size: 29px;
-    font-family: "Raleway";
     color: #FFFFFF;
     margin-bottom: 13px;
   }
@@ -786,64 +750,27 @@ body {
     margin-bottom: 52px;
   }
   .component-4 #services div {
-    display: inline-block;
-    height: 0.5px;
-    width: 37px;
-    background-color: #D3D3D3;
     margin-bottom: 11px;
     margin-left: 8px;
   }
   .component-4 #services img {
     margin-left: 2px;
   }
-  .component-4 #services div:nth-of-type(2) {
-    margin-left: 3px;
-  }
   .component-4 .hexagon {
     width: 123px;
     height: 147px;
-    background-color: #666666; /* Replace with your desired color */
+    background-color: #666666;
     clip-path: polygon(50% 2%, 101% 27%, 101% 75%, 50% 100%, 0% 76%, 0% 27%);
     margin-bottom: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .component-4 .hexagon:hover {
-    background-color: #3AB6B2;
-  }
-  .component-4 .hexagon:hover .second-hex {
-    background-color: #FFFFFF;
-  }
-  .component-4 .hexagon:hover .second-hex .inner-hexagon {
-    background-color: #3AB6B2;
   }
   .component-4 .hexagon .second-hex {
     width: 113px;
     height: 132px;
-    background-color: #000000;
     clip-path: polygon(47.5% 0%, 96% 24%, 96% 72%, 48% 95%, 0% 72%, 0% 24%);
-    margin-top: 10px;
-    margin-left: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .component-4 .hexagon .second-hex .inner-hexagon {
-    width: 105px;
-    height: 119px;
-    margin-right: 5px;
-    margin-bottom: 8px;
-    margin-top: 1px;
-    background-color: #000000; /* Replace with your desired color */
+    background-color: #000000;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 1% 76%, 1% 25%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .component-4 .hexagon .second-hex .inner-hexagon img {
-    margin-bottom: 3px;
-    margin-right: 3px;
   }
   .component-4 .hdr2 {
     font-family: "Raleway";
@@ -882,6 +809,7 @@ body {
   }
   .component-4 .center:not(:last-of-type) .hdr2 {
     letter-spacing: 0.8px;
+    margin-left: 1px;
   }
   .component-4 .center:not(:last-of-type) span:nth-of-type(2) {
     margin-bottom: 1.1px;
@@ -897,20 +825,16 @@ body {
     margin-top: 1.2px;
   }
 }
-@media screen and ((min-width:1025px) and (max-width:1920px)) {
+@media screen and ((min-width:1024px) and (max-width:1920px)) {
   .component-4 {
     background-color: #1e1e1e;
     height: 783px;
-    display: flex;
     justify-content: center;
-    align-items: center;
     padding-top: 71px;
     position: relative;
   }
   .component-4 > h1 {
     font-size: 31px;
-    font-family: "Raleway";
-    color: #FFFFFF;
     margin-bottom: 13px;
   }
   .component-4 #services {
@@ -919,19 +843,14 @@ body {
     top: 192px;
   }
   .component-4 #services div {
-    display: inline-block;
     height: 0.5px;
     width: 37px;
-    background-color: #D3D3D3;
     margin-bottom: 9px;
     margin-left: 6px;
   }
   .component-4 #services img {
     margin-left: 5px;
     margin-right: 2px;
-  }
-  .component-4 #services div:nth-of-type(2) {
-    margin-left: 3px;
   }
   .component-4 .not-include, .component-4 #services {
     position: absolute;
@@ -947,9 +866,6 @@ body {
     background-color: #FFFFFF;
     clip-path: polygon(50% 2%, 101% 27%, 101% 75%, 50% 100%, 0% 76%, 0% 27%);
     margin-bottom: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .component-4 .hexagon:hover {
     background-color: #3AB6B2;
@@ -967,16 +883,8 @@ body {
     clip-path: polygon(47.5% 0%, 96% 24%, 96% 72%, 48% 95%, 0% 72%, 0% 24%);
     margin-top: 10px;
     margin-left: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .component-4 .hexagon .second-hex .inner-hexagon {
-    width: 105px;
-    height: 119px;
-    margin-right: 5px;
-    margin-bottom: 8px;
-    margin-top: 1px;
     background-color: #666666;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 1% 76%, 1% 25%);
     display: flex;
@@ -1055,13 +963,74 @@ body {
     margin-top: 188px;
   }
 }
-@media screen and ((min-width:320px) and (max-width:768px)) {
+.component-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.component-4 > h1 {
+  font-family: "Raleway";
+  color: #FFFFFF;
+}
+.component-4 #services div {
+  display: inline-block;
+  height: 0.5px;
+  width: 37px;
+  background-color: #D3D3D3;
+}
+.component-4 #services div:nth-of-type(2) {
+  margin-left: 3px;
+}
+.component-4 .hexagon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.component-4 .hexagon:hover {
+  background-color: #3AB6B2;
+}
+.component-4 .hexagon:hover .second-hex {
+  background-color: #FFFFFF;
+}
+.component-4 .hexagon:hover .second-hex .inner-hexagon {
+  background-color: #3AB6B2;
+}
+.component-4 .hexagon .second-hex {
+  margin-top: 10px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.component-4 .hexagon .second-hex .inner-hexagon {
+  width: 105px;
+  height: 119px;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.component-4 .hexagon .second-hex .inner-hexagon img {
+  margin-bottom: 3px;
+  margin-right: 3px;
+}
+.component-4 .hexagon .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.component-4 .hexagon .center:nth-of-type(4) .inner-hexagon img {
+  margin-left: 1px;
+}
+
+@media screen and ((min-width:320px) and (max-width:767px)) {
   .component-5 {
     height: 803px;
     display: grid;
-    justify-content: center;
     padding-top: 37px;
-    position: relative;
   }
   .component-5 .wrap {
     margin-top: 61px;
@@ -1071,31 +1040,19 @@ body {
     justify-content: center;
   }
   .component-5 > h1 {
-    font-family: "Raleway";
     font-size: 27px;
     justify-self: center;
   }
   .component-5 .chest {
-    width: 116px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
     margin-top: 89px;
   }
   .component-5 .chest div {
-    display: inline-block;
-    height: 0.5px;
-    width: 33px;
-    background-color: #D3D3D3;
     margin-bottom: 6px;
     margin-right: 1px;
     margin-left: 8px;
   }
   .component-5 .chest div:nth-child(3) {
     margin-left: 3px;
-  }
-  .component-5 .chest img {
-    margin-left: 2px;
   }
   .component-5 .box {
     width: 280px;
@@ -1182,7 +1139,7 @@ body {
     display: none;
   }
 }
-@media screen and ((min-width:769px) and (max-width:1024px)) {
+@media screen and ((min-width:768px) and (max-width:1023px)) {
   .component-5 {
     height: 702px;
     display: flex;
@@ -1318,11 +1275,10 @@ body {
     display: block;
   }
 }
-@media screen and ((min-width:1025px) and (max-width:1920px)) {
+@media screen and ((min-width:1024px) and (max-width:1920px)) {
   .component-5 {
     height: 1017px;
     display: flex;
-    justify-content: center;
     padding-top: 72px;
     position: relative;
   }
@@ -1458,18 +1414,37 @@ body {
     display: block;
   }
 }
-@media screen and ((min-width:320px) and (max-width:768px)) {
+.component-5 {
+  justify-content: center;
+  position: relative;
+}
+.component-5 > h1 {
+  font-family: "Raleway";
+}
+.component-5 .chest {
+  width: 116px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.component-5 .chest div {
+  display: inline-block;
+  height: 0.5px;
+  width: 33px;
+  background-color: #D3D3D3;
+}
+.component-5 .chest img {
+  margin-left: 2px;
+}
+
+@media screen and ((min-width:320px) and (max-width:767px)) {
   .component-6 {
     height: 958px;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 45px;
-    position: relative;
   }
   .component-6 > h1 {
-    font-family: "Raleway";
     font-size: 27px;
     justify-self: center;
   }
@@ -1569,31 +1544,15 @@ body {
     font-family: "Raleway";
     font-size: 14px;
   }
-  .component-6 form .but {
-    width: 160px;
-    height: 42px;
-    background-color: #3AB6B2;
-    color: #FFFFFF;
-    font-family: "Raleway";
-    font-weight: bold;
-    border: none;
-    margin-top: 3px;
-    letter-spacing: -0.2px;
-    padding-right: 1px;
-  }
 }
-@media screen and ((min-width:769px) and (max-width:1024px)) {
+@media screen and ((min-width:768px) and (max-width:1023px)) {
   .component-6 {
     height: 742px;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 45px;
-    position: relative;
   }
   .component-6 > h1 {
-    font-family: "Raleway";
     font-size: 29px;
     justify-self: center;
   }
@@ -1696,32 +1655,15 @@ body {
     font-size: 14px;
     grid-column: 1/3;
   }
-  .component-6 form .but {
-    width: 160px;
-    height: 42px;
-    background-color: #3AB6B2;
-    color: #FFFFFF;
-    font-family: "Raleway";
-    font-weight: bold;
-    border: none;
-    margin-top: 3px;
-    letter-spacing: -0.2px;
-    padding-right: 1px;
-    padding-top: 1px;
-  }
 }
-@media screen and ((min-width:1025px) and (max-width:1920px)) {
+@media screen and ((min-width:1024px) and (max-width:1920px)) {
   .component-6 {
     height: 897px;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     padding-top: 93px;
-    position: relative;
   }
   .component-6 > h1 {
-    font-family: "Raleway";
     font-size: 31px;
     justify-self: center;
   }
@@ -1836,27 +1778,34 @@ body {
     grid-column: 1/3;
   }
   .component-6 form .but {
-    width: 160px;
-    height: 42px;
-    background-color: #3AB6B2;
-    color: #FFFFFF;
-    font-family: "Raleway";
-    font-weight: bold;
-    border: none;
-    margin-top: 3px;
-    letter-spacing: -0.2px;
-    padding-right: 1px;
     padding-top: 1px;
   }
 }
-@media screen and ((min-width:320px) and (max-width:768px)) {
+.component-6 {
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.component-6 > h1 {
+  font-family: "Raleway";
+}
+.component-6 .but {
+  width: 160px;
+  height: 42px;
+  background-color: #3AB6B2;
+  color: #FFFFFF;
+  font-family: "Raleway";
+  font-weight: bold;
+  border: none;
+  margin-top: 3px;
+  letter-spacing: -0.2px;
+  padding-right: 1px;
+}
+
+@media screen and ((min-width:320px) and (max-width:767px)) {
   .component-7 {
     height: 312px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #000000;
   }
   .component-7 .logo-handler img {
     margin-top: 44px;
@@ -1868,19 +1817,7 @@ body {
     width: 188px;
     margin-right: 3px;
     height: 92px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     gap: 8.6px;
-  }
-  .component-7 .links div {
-    height: 40px;
-    width: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    background-color: #252525;
   }
   .component-7 .links div:first-child, .component-7 .links div:nth-child(5) {
     margin-left: 2px;
@@ -1895,22 +1832,15 @@ body {
     background-color: #46629E;
   }
   .component-7 .copy-right {
-    color: #FFFFFF;
-    font-size: 11px;
-    font-family: "Raleway";
     margin-top: 39px;
     margin-right: 8px;
     letter-spacing: 0.15px;
   }
 }
-@media screen and ((min-width:769px) and (max-width:1024px)) {
+@media screen and ((min-width:768px) and (max-width:1023px)) {
   .component-7 {
     height: 312px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #000000;
   }
   .component-7 .logo-handler img {
     margin-top: 48px;
@@ -1922,19 +1852,7 @@ body {
     width: 287px;
     margin-right: 8px;
     height: 92px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     gap: 8.6px;
-  }
-  .component-7 .links div {
-    height: 40px;
-    width: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    background-color: #252525;
   }
   .component-7 .links div:first-child {
     padding-top: 2px;
@@ -1946,21 +1864,14 @@ body {
     background-color: #46629E;
   }
   .component-7 .copy-right {
-    color: #FFFFFF;
-    font-size: 11px;
-    font-family: "Raleway";
     margin-top: -4px;
     letter-spacing: 0.15px;
   }
 }
-@media screen and ((min-width:1025px) and (max-width:1920px)) {
+@media screen and ((min-width:1024px) and (max-width:1920px)) {
   .component-7 {
     height: 312px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #000000;
   }
   .component-7 .logo-handler img {
     margin-top: 48px;
@@ -1971,19 +1882,7 @@ body {
     margin-top: 35px;
     width: 287px;
     height: 92px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     gap: 8.6px;
-  }
-  .component-7 .links div {
-    height: 40px;
-    width: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    background-color: #252525;
   }
   .component-7 .links div:first-child {
     padding-top: 2px;
@@ -1995,12 +1894,34 @@ body {
     background-color: #46629E;
   }
   .component-7 .copy-right {
-    color: #FFFFFF;
-    font-size: 11px;
-    font-family: "Raleway";
     margin-top: -4px;
     letter-spacing: 0.15px;
   }
+}
+.component-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+}
+.component-7 .links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.component-7 .links div {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background-color: #252525;
+}
+.component-7 .copy-right {
+  color: #FFFFFF;
+  font-size: 11px;
+  font-family: "Raleway";
 }
 
 /*# sourceMappingURL=index.css.map */

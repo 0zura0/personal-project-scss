@@ -1,4 +1,9 @@
 .component-1{
     width: 100%;
     background-color: $black;
+    display: flex; 
+    .wrapper{
+            display: flex;
+            justify-content: space-between; 
+        }
 }

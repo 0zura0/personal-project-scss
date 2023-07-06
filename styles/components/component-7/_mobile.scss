@@ -2,10 +2,6 @@
     .component-7{
         height: 312px;
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: $black;
         .logo-handler{
             img{
                 margin-top: 44px;
@@ -18,18 +14,8 @@
             width: 188px;
             margin-right: 3px;
             height: 92px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
             gap: 8.6px;
             div{
-                height: 40px;
-                width: 40px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border-radius: 3px;
-                background-color: $icon-col;
                 &:first-child,
                 &:nth-child(5){
                     margin-left: 2px;
@@ -47,9 +33,6 @@
             }
         }
         .copy-right{
-            color: $white;
-            font-size: 11px;
-            font-family: $font-raleway;
             margin-top: 39px;
             margin-right: 8px;
             letter-spacing: 0.15px;

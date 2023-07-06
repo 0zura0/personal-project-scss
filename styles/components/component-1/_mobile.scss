@@ -2,13 +2,8 @@
 @media screen and ($mobile) {
     .component-1{
         height: 67px;
-        display: flex;
         justify-content: space-between;
     
-        .wrapper{
-            display: flex;
-            justify-content: space-between;
-        }
         #parryLogo{
             width: 90.84px;
             margin-left:22%;

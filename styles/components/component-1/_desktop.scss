@@ -1,12 +1,9 @@
 @media screen and ($desktop) {
     .component-1{
         height: 101px;
-        display: flex;
         justify-content:center;
         align-items: center;
         .wrapper{
-            display: flex;
-            justify-content: space-between;
             width: 60.8%;
         }
         #parryLogo{

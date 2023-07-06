@@ -3,13 +3,9 @@
         height: 958px;
         width: 100%;
         display: $flex;
-        flex-direction: column;
-        align-items: center;
         padding-top: 45px;
-        position: relative;
     
     >h1{
-        font-family: $font-raleway;
         font-size: 27px;
         justify-self: center;
     }
@@ -86,7 +82,7 @@
         }
 
         form{
-            display: grid;
+            display: $grid;
             width: 100%;
             justify-content: center;
             margin-top: 41px;
@@ -114,18 +110,7 @@
                 font-size: 14px;
 
             }
-            .but{
-                width: 160px;
-                height: 42px;
-                background-color: $green;
-                color: $white;
-                font-family: $font-raleway;
-                font-weight: bold;
-                border: none;
-                margin-top: 3px;
-                letter-spacing: -0.2px;
-                padding-right: 1px;
-            }
+            
         }
 
 }

@@ -1,9 +1,6 @@
 @media screen and ($mobile) {
     .component-3{
         height : 799px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         padding-top: 36px;
 
         .hidden{
@@ -14,25 +11,14 @@
 
         #heder{
             font-size: 27px;
-            font-family: $font-raleway;
-            font-weight: 600;
-            span{
-                color: $green;
-            }
             margin-bottom: 10px;
         }
         #speaker{
             width: 99px;
             margin-bottom: 32px;
             div{
-                display: inline-block;
                 height: 0.5px;
                 width: 33px;
-                background-color: $graysh;
-                margin-bottom: 5px;
-            }
-            img{
-                margin-left: 5px;
             }
             div:nth-of-type(2){
                 margin-left: 2px;
